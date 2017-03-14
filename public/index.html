@@ -9,7 +9,7 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/binaryjs/0.2.1/binary.min.js"></script>
-	
+	<script src="https://cdn.webrtc-experiment.com/MediaStreamRecorder.js"> </script>
 
 	<link href="css/simplegrid.css" rel="stylesheet" media="screen">
 	<link href="css/style.css" rel="stylesheet" media="screen">
@@ -41,37 +41,27 @@
       recording = false;
       window.Stream.end();
     }
+    
+var mediaConstraints = {
+    audio: true
+};
 
-    function success(e) {
-      audioContext = window.AudioContext || window.webkitAudioContext;
-      context = new audioContext();
+navigator.getUserMedia(mediaConstraints, onMediaSuccess, onMediaError);
 
-      // the sample rate is in context.sampleRate
-      audioInput = context.createMediaStreamSource(e);
+function onMediaSuccess(astream) {
+    var mediaRecorder = new MediaStreamRecorder(astream);
+    mediaRecorder.mimeType = 'audio/wav'; // check this line for audio/wav
+    mediaRecorder.ondataavailable = function (blob) {
+		window.Stream.write(blob);
+    };
+    mediaRecorder.start(3000);
+}
 
-      var bufferSize = 2048;
-      recorder = context.createScriptProcessor(bufferSize, 1, 1);
+function onMediaError(e) {
+    console.error('media error', e);
+}
 
-      recorder.onaudioprocess = function(e){
-        if(!recording) return;
-        console.log ('recording');
-        var left = e.inputBuffer.getChannelData(0);
-        window.Stream.write(left);
-      }
 
-      audioInput.connect(recorder)
-      recorder.connect(context.destination); 
-    }
-
-    function convertoFloat32ToInt16(buffer) {
-      var l = buffer.length;
-      var buf = new Int16Array(l)
-
-      while (l--) {
-        buf[l] = buffer[l]*0xFFFF;    //convert to 16 bit
-      }
-      return buf.buffer
-    }
   });
 })(this);
 	
