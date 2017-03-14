@@ -16,7 +16,7 @@
 
 <script>
 	(function(window) {
-  var client = new BinaryClient('https://telcooffer.mybluemix.net/ws/input');
+  var client = new BinaryClient('ws://telcooffer.mybluemix.net/ws/input');
 
   client.on('open', function() {
     window.Stream = client.createStream();
