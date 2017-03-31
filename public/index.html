@@ -14,60 +14,10 @@
 	<link href="css/simplegrid.css" rel="stylesheet" media="screen">
 	<link href="css/style.css" rel="stylesheet" media="screen">
 
-<script>
-	(function(window) {
-  var client = new BinaryClient('ws://telcooffer.mybluemix.net/ws/input');
-
-  client.on('open', function() {
-    window.Stream = client.createStream();
-
-    if (!navigator.getUserMedia)
-      navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia ||
-    navigator.mozGetUserMedia || navigator.msGetUserMedia;
-
-    if (navigator.getUserMedia) {
-      navigator.getUserMedia({audio:true}, success, function(e) {
-        alert('Error capturing audio.');
-      });
-    } else alert('getUserMedia not supported in this browser.');
-
-    var recording = false;
-
-    window.startRecording = function() {
-      recording = true;
-    }
-
-    window.stopRecording = function() {
-      recording = false;
-      window.Stream.end();
-    }
-    
-    function success(e) {
-	var mediaConstraints = {audio: true};
-      	navigator.getUserMedia(mediaConstraints, function (stream) {
-    var mediaRecorder = new MediaStreamRecorder(stream);
-    mediaRecorder.mimeType = 'audio/wav'; // check this line for audio/wav
-    mediaRecorder.ondataavailable = function (blob) {
-		window.Stream.write(blob);
-    };
-    mediaRecorder.start(3000);
-}, function (e) {
-    console.error('media error', e);
-});
 
 
-    }
-    
-
-  });
-})(this);
-	
-	</script>
 </head>
 <body>
-
- <button onclick="startRecording()">Record</button>
-<button onclick="stopRecording()">Stop & Send</button>
 
 
 </body>
