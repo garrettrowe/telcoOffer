@@ -1,0 +1,840 @@
+{
+	"name": "telcoOffer",
+	"created": "2017-03-14T17:13:45.813Z",
+	"intents": [{
+			"intent": "anger",
+			"created": "2017-03-16T00:28:36.880Z",
+			"updated": "2017-03-16T00:48:03.531Z",
+			"examples": [{
+					"text": "i'm angry",
+					"created": "2017-03-16T00:48:03.531Z",
+					"updated": "2017-03-16T00:48:03.531Z"
+				}, {
+					"text": "i'm pissed off",
+					"created": "2017-03-16T00:28:36.880Z",
+					"updated": "2017-03-16T00:28:36.880Z"
+				}, {
+					"text": "im really upset",
+					"created": "2017-03-16T00:28:36.880Z",
+					"updated": "2017-03-16T00:28:36.880Z"
+				}, {
+					"text": "I'm upset about the service",
+					"created": "2017-03-16T00:28:36.880Z",
+					"updated": "2017-03-16T00:28:36.880Z"
+				}, {
+					"text": "we've got a real problem here",
+					"created": "2017-03-16T00:28:36.880Z",
+					"updated": "2017-03-16T00:28:36.880Z"
+				}
+			],
+			"description": null
+		}, {
+			"intent": "bill",
+			"created": "2017-03-15T03:27:54.621Z",
+			"updated": "2017-03-25T22:21:27.264Z",
+			"examples": [{
+					"text": "billing",
+					"created": "2017-03-15T03:27:54.621Z",
+					"updated": "2017-03-15T03:27:54.621Z"
+				}, {
+					"text": "how much do i owe you",
+					"created": "2017-03-25T22:21:27.264Z",
+					"updated": "2017-03-25T22:21:27.264Z"
+				}, {
+					"text": "how much is my bill",
+					"created": "2017-03-15T03:27:54.621Z",
+					"updated": "2017-03-15T03:27:54.621Z"
+				}, {
+					"text": "i need to pay my bill",
+					"created": "2017-03-15T03:27:54.621Z",
+					"updated": "2017-03-15T03:27:54.621Z"
+				}, {
+					"text": "pay bill",
+					"created": "2017-03-16T00:48:48.189Z",
+					"updated": "2017-03-16T00:48:48.189Z"
+				}, {
+					"text": "what is my bill",
+					"created": "2017-03-15T03:27:54.621Z",
+					"updated": "2017-03-15T03:27:54.621Z"
+				}
+			],
+			"description": null
+		}, {
+			"intent": "data",
+			"created": "2017-03-15T18:38:20.699Z",
+			"updated": "2017-03-16T00:48:33.243Z",
+			"examples": [{
+					"text": "do I have data",
+					"created": "2017-03-15T18:40:53.378Z",
+					"updated": "2017-03-15T18:40:53.378Z"
+				}, {
+					"text": "how many gigs do i have left",
+					"created": "2017-03-15T18:41:36.109Z",
+					"updated": "2017-03-15T18:41:36.109Z"
+				}, {
+					"text": "how many megs of data do i have left?",
+					"created": "2017-03-16T00:48:33.243Z",
+					"updated": "2017-03-16T00:48:33.243Z"
+				}, {
+					"text": "how much data do I have left",
+					"created": "2017-03-15T18:40:33.879Z",
+					"updated": "2017-03-15T18:40:33.879Z"
+				}, {
+					"text": "how much of my data plan do i have remaining",
+					"created": "2017-03-15T18:41:13.591Z",
+					"updated": "2017-03-15T18:41:13.591Z"
+				}
+			],
+			"description": null
+		}, {
+			"intent": "greeting",
+			"created": "2017-03-14T17:13:45.813Z",
+			"updated": "2017-03-15T02:46:27.845Z",
+			"examples": [{
+					"text": "Gday!",
+					"created": "2017-03-14T17:13:45.813Z",
+					"updated": "2017-03-14T17:13:45.813Z"
+				}, {
+					"text": "good morning",
+					"created": "2017-03-14T17:13:45.813Z",
+					"updated": "2017-03-14T17:13:45.813Z"
+				}, {
+					"text": "hello",
+					"created": "2017-03-14T17:13:45.813Z",
+					"updated": "2017-03-14T17:13:45.813Z"
+				}, {
+					"text": "hey",
+					"created": "2017-03-14T17:13:45.813Z",
+					"updated": "2017-03-14T17:13:45.813Z"
+				}, {
+					"text": "hi",
+					"created": "2017-03-14T17:13:45.813Z",
+					"updated": "2017-03-14T17:13:45.813Z"
+				}, {
+					"text": "yo!",
+					"created": "2017-03-14T17:13:45.813Z",
+					"updated": "2017-03-14T17:13:45.813Z"
+				}
+			],
+			"description": null
+		}, {
+			"intent": "offers",
+			"created": "2017-03-15T17:56:10.739Z",
+			"updated": "2017-03-21T22:36:59.398Z",
+			"examples": [{
+					"text": "do you have any deals",
+					"created": "2017-03-15T18:04:01.352Z",
+					"updated": "2017-03-15T18:04:01.352Z"
+				}, {
+					"text": "do you have a promo",
+					"created": "2017-03-21T22:36:59.398Z",
+					"updated": "2017-03-21T22:36:59.398Z"
+				}, {
+					"text": "i'd like a discount",
+					"created": "2017-03-15T18:04:11.659Z",
+					"updated": "2017-03-15T18:04:11.659Z"
+				}, {
+					"text": "what are the current promotions",
+					"created": "2017-03-21T22:36:47.432Z",
+					"updated": "2017-03-21T22:36:47.432Z"
+				}, {
+					"text": "what offers do you have",
+					"created": "2017-03-15T18:03:46.912Z",
+					"updated": "2017-03-15T18:03:46.912Z"
+				}
+			],
+			"description": null
+		}, {
+			"intent": "paytoomuch",
+			"created": "2017-03-16T00:39:48.620Z",
+			"updated": "2017-03-16T00:40:45.785Z",
+			"examples": [{
+					"text": "I have too many overage charges",
+					"created": "2017-03-16T00:40:45.785Z",
+					"updated": "2017-03-16T00:40:45.785Z"
+				}, {
+					"text": "I'm always running out of data",
+					"created": "2017-03-16T00:39:48.620Z",
+					"updated": "2017-03-16T00:39:48.620Z"
+				}, {
+					"text": "I'm getting too many overages",
+					"created": "2017-03-16T00:40:33.321Z",
+					"updated": "2017-03-16T00:40:33.321Z"
+				}, {
+					"text": "i need to save money",
+					"created": "2017-03-16T00:40:15.682Z",
+					"updated": "2017-03-16T00:40:15.682Z"
+				}, {
+					"text": "its too expensive",
+					"created": "2017-03-16T00:40:03.435Z",
+					"updated": "2017-03-16T00:40:03.435Z"
+				}
+			],
+			"description": null
+		}, {
+			"intent": "recommendamovie",
+			"created": "2017-03-21T22:34:09.222Z",
+			"updated": "2017-03-25T16:03:55.037Z",
+			"examples": [{
+					"text": "can you recommend a movie",
+					"created": "2017-03-21T22:34:45.015Z",
+					"updated": "2017-03-21T22:35:10.992Z"
+				}, {
+					"text": "do you know any good movies",
+					"created": "2017-03-25T16:03:45.417Z",
+					"updated": "2017-03-25T16:03:45.417Z"
+				}, {
+					"text": "tell me a movie",
+					"created": "2017-03-25T16:03:55.037Z",
+					"updated": "2017-03-25T16:03:55.037Z"
+				}, {
+					"text": "tell me a movie to watch",
+					"created": "2017-03-21T22:36:24.998Z",
+					"updated": "2017-03-21T22:36:24.998Z"
+				}, {
+					"text": "what can I stream on your service?",
+					"created": "2017-03-21T22:36:15.633Z",
+					"updated": "2017-03-21T22:36:15.633Z"
+				}, {
+					"text": "what movies do you think I will like",
+					"created": "2017-03-21T22:35:43.453Z",
+					"updated": "2017-03-21T22:35:43.453Z"
+				}, {
+					"text": "what's a good movie",
+					"created": "2017-03-21T22:35:52.681Z",
+					"updated": "2017-03-21T22:35:52.681Z"
+				}, {
+					"text": "what shows might I like",
+					"created": "2017-03-21T22:36:01.850Z",
+					"updated": "2017-03-21T22:36:01.850Z"
+				}
+			],
+			"description": null
+		}, {
+			"intent": "start",
+			"created": "2017-03-15T03:21:13.161Z",
+			"updated": "2017-03-15T03:21:13.161Z",
+			"examples": [{
+					"text": "start call",
+					"created": "2017-03-15T03:21:13.161Z",
+					"updated": "2017-03-15T03:21:13.161Z"
+				}
+			],
+			"description": null
+		}
+	],
+	"updated": "2017-03-25T22:21:27.264Z",
+	"entities": [{
+			"type": null,
+			"entity": "anger",
+			"source": null,
+			"values": [{
+					"value": "$emotion:Anger",
+					"created": "2017-03-15T18:14:06.848Z",
+					"updated": "2017-03-15T18:14:06.848Z",
+					"metadata": null,
+					"synonyms": []
+				}
+			],
+			"created": "2017-03-15T18:14:06.848Z",
+			"updated": "2017-03-15T18:14:06.848Z",
+			"open_list": false,
+			"description": null
+		}, {
+			"type": null,
+			"entity": "gender",
+			"source": null,
+			"values": [{
+					"value": "female",
+					"created": "2017-03-21T22:57:56.672Z",
+					"updated": "2017-03-21T22:58:09.623Z",
+					"metadata": null,
+					"synonyms": ["girl", "woman"]
+				}, {
+					"value": "male",
+					"created": "2017-03-21T22:57:56.672Z",
+					"updated": "2017-03-21T22:58:13.222Z",
+					"metadata": null,
+					"synonyms": ["boy", "man"]
+				}
+			],
+			"created": "2017-03-21T22:57:56.672Z",
+			"updated": "2017-03-21T22:57:56.672Z",
+			"open_list": false,
+			"description": null
+		}, {
+			"type": null,
+			"entity": "response",
+			"source": null,
+			"values": [{
+					"value": "no",
+					"created": "2017-03-14T17:13:45.813Z",
+					"updated": "2017-03-14T17:13:45.813Z",
+					"metadata": null,
+					"synonyms": ["nooo", "nope"]
+				}, {
+					"value": "yes",
+					"created": "2017-03-14T17:13:45.813Z",
+					"updated": "2017-03-16T00:49:42.987Z",
+					"metadata": null,
+					"synonyms": ["absolutley", "definetley", "great", "ok", "sure", "that sounds great", "totally", "yep", "yes, please"]
+				}
+			],
+			"created": "2017-03-14T17:13:45.813Z",
+			"updated": "2017-03-14T17:13:45.813Z",
+			"open_list": false,
+			"description": null
+		}, {
+			"type": null,
+			"entity": "sys-number",
+			"source": "system.entities",
+			"values": [],
+			"created": "2017-03-21T22:39:24.430Z",
+			"updated": "2017-03-21T22:39:24.430Z",
+			"open_list": false,
+			"description": null
+		}
+	],
+	"language": "en",
+	"metadata": null,
+	"description": "",
+	"dialog_nodes": [{
+			"go_to": null,
+			"output": {},
+			"parent": "Age",
+			"context": null,
+			"created": "2017-03-21T22:43:07.206Z",
+			"updated": "2017-03-21T23:23:43.961Z",
+			"metadata": null,
+			"conditions": "@gender",
+			"description": null,
+			"dialog_node": "Gender",
+			"previous_sibling": null
+		}, {
+			"go_to": null,
+			"output": {},
+			"parent": "bill",
+			"context": null,
+			"created": "2017-03-21T23:27:26.210Z",
+			"updated": "2017-03-22T16:21:12.957Z",
+			"metadata": null,
+			"conditions": "@sys-number",
+			"description": null,
+			"dialog_node": "Rec",
+			"previous_sibling": null
+		}, {
+			"go_to": null,
+			"output": {},
+			"parent": "bill",
+			"context": null,
+			"created": "2017-03-22T16:41:48.071Z",
+			"updated": "2017-03-22T17:00:39.322Z",
+			"metadata": null,
+			"conditions": "anything_else",
+			"description": null,
+			"dialog_node": "node_26_1490200907921",
+			"previous_sibling": "Rec"
+		}, {
+			"go_to": null,
+			"output": {},
+			"parent": "Gender",
+			"context": null,
+			"created": "2017-03-21T22:59:08.507Z",
+			"updated": "2017-03-21T23:25:34.026Z",
+			"metadata": null,
+			"conditions": "@response",
+			"description": null,
+			"dialog_node": "bill",
+			"previous_sibling": "node_10_1490138652802"
+		}, {
+			"go_to": null,
+			"output": {},
+			"parent": "Senior",
+			"context": null,
+			"created": "2017-03-21T22:38:37.170Z",
+			"updated": "2017-03-22T16:55:23.182Z",
+			"metadata": null,
+			"conditions": "@response",
+			"description": null,
+			"dialog_node": "Age",
+			"previous_sibling": null
+		}, {
+			"go_to": null,
+			"output": {},
+			"parent": "Upsell",
+			"context": null,
+			"created": "2017-03-15T17:58:49.717Z",
+			"updated": "2017-03-15T17:59:13.271Z",
+			"metadata": null,
+			"conditions": "@response",
+			"description": null,
+			"dialog_node": "node_7_1489600729536",
+			"previous_sibling": null
+		}, {
+			"go_to": null,
+			"output": {
+				"text": {
+					"values": ["First, are you a senior citizen?"],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "Recommend a movie",
+			"context": null,
+			"created": "2017-03-22T16:55:07.870Z",
+			"updated": "2017-03-22T16:57:29.506Z",
+			"metadata": null,
+			"conditions": null,
+			"description": null,
+			"dialog_node": "Senior",
+			"previous_sibling": null
+		}, {
+			"go_to": null,
+			"output": {
+				"text": {
+					"values": ["Hi' I'm the manager on duty and I overheard your frustration.  How can I help resolve your problem??"],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": null,
+			"context": {
+				"trial": "three",
+				"escalate": true
+			},
+			"created": "2017-03-14T17:13:45.813Z",
+			"updated": "2017-03-16T00:39:07.536Z",
+			"metadata": null,
+			"conditions": "$emotion:Anger || #anger",
+			"description": null,
+			"dialog_node": "Escalate",
+			"previous_sibling": "Recommend a movie"
+		}, {
+			"go_to": null,
+			"output": {
+				"text": {
+					"values": ["Hi, my name is Watson.  Thank you for calling ABC wireless.   How can I help you today?"],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": null,
+			"context": null,
+			"created": "2017-03-14T17:13:45.813Z",
+			"updated": "2017-03-25T16:03:25.167Z",
+			"metadata": null,
+			"conditions": "#start",
+			"description": null,
+			"dialog_node": "Start",
+			"previous_sibling": "Whats my bill"
+		}, {
+			"go_to": null,
+			"output": {
+				"text": {
+					"values": ["Sure, let me bring up your bill. <speak version=\"1.0\"><break strength=\"strong\"></break></speak>Your current balance is <speak version=\"1.0\">   <say-as interpret-as=\"vxml:currency\">USD$MONTHLYCHARGES</say-as> </speak><speak version=\"1.0\"><break strength=\"strong\"></break></speak>   I see you usually pay by $PAYMENTMETHOD.  Do you want me to process that now for you?"],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": null,
+			"context": null,
+			"created": "2017-03-14T17:13:45.813Z",
+			"updated": "2017-03-21T22:33:15.440Z",
+			"metadata": null,
+			"conditions": "#bill",
+			"description": null,
+			"dialog_node": "Whats my bill",
+			"previous_sibling": "Escalate"
+		}, {
+			"go_to": null,
+			"output": {
+				"text": {
+					"values": ["We have recently partnered with a leading movie service.  We think you might want to watch $movie , and we'd like to offer you a free $trial month trial.  Watching movies on this service won't count against your data plan, so it should really save you a lot of money.  <speak version=\"1.0\"><break strength=\"strong\"></break></speak>Can I sign you up and send you the details?"],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": null,
+			"context": null,
+			"created": "2017-03-14T17:13:45.813Z",
+			"updated": "2017-03-21T22:32:11.853Z",
+			"metadata": null,
+			"conditions": "#offers || #paytoomuch",
+			"description": null,
+			"dialog_node": "Upsell",
+			"previous_sibling": "How much data left"
+		}, {
+			"go_to": null,
+			"output": {
+				"text": {
+					"values": ["Hi, how can I help"],
+					"selection_policy": "sequential"
+				},
+				"append": false
+			},
+			"parent": null,
+			"context": null,
+			"created": "2017-03-14T17:13:45.813Z",
+			"updated": "2017-03-21T22:33:25.532Z",
+			"metadata": null,
+			"conditions": "#greeting",
+			"description": null,
+			"dialog_node": "Say Hello",
+			"previous_sibling": null
+		}, {
+			"go_to": {
+				"return": null,
+				"selector": "body",
+				"dialog_node": "Age"
+			},
+			"output": {
+				"text": {
+					"values": ["I'm sorry I didn't get that"],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "Age",
+			"context": null,
+			"created": "2017-03-22T16:30:23.444Z",
+			"updated": "2017-03-22T17:00:05.513Z",
+			"metadata": null,
+			"conditions": "anything_else",
+			"description": null,
+			"dialog_node": "node_23_1490200223320",
+			"previous_sibling": "Gender"
+		}, {
+			"go_to": {
+				"return": null,
+				"selector": "body",
+				"dialog_node": "Gender"
+			},
+			"output": {
+				"text": {
+					"values": ["I'm sorry I didn't get that"],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "Gender",
+			"context": null,
+			"created": "2017-03-22T16:30:58.833Z",
+			"updated": "2017-03-22T17:00:12.736Z",
+			"metadata": null,
+			"conditions": "anything_else",
+			"description": null,
+			"dialog_node": "node_24_1490200258666",
+			"previous_sibling": "bill"
+		}, {
+			"go_to": {
+				"return": null,
+				"selector": "body",
+				"dialog_node": "Senior"
+			},
+			"output": {
+				"text": {
+					"values": ["I'm sorry I didn't get that"],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "Senior",
+			"context": null,
+			"created": "2017-03-22T16:29:57.479Z",
+			"updated": "2017-03-22T16:59:59.360Z",
+			"metadata": null,
+			"conditions": "anything_else",
+			"description": null,
+			"dialog_node": "node_35_1490201913441",
+			"previous_sibling": "Age"
+		}, {
+			"go_to": {
+				"return": null,
+				"selector": "body",
+				"dialog_node": "Senior"
+			},
+			"output": {
+				"text": {
+					"values": ["Sure, to begin I need to ask you a few questions."],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": null,
+			"context": null,
+			"created": "2017-03-21T22:33:34.995Z",
+			"updated": "2017-03-22T16:58:03.280Z",
+			"metadata": null,
+			"conditions": "#recommendamovie",
+			"description": null,
+			"dialog_node": "Recommend a movie",
+			"previous_sibling": "Say Hello"
+		}, {
+			"go_to": {
+				"return": null,
+				"selector": "body",
+				"dialog_node": "Upsell"
+			},
+			"output": {},
+			"parent": "Whats my bill",
+			"context": null,
+			"created": "2017-03-15T03:43:12.806Z",
+			"updated": "2017-03-15T18:01:31.170Z",
+			"metadata": null,
+			"conditions": "@response",
+			"description": null,
+			"dialog_node": "node_1_1489549392637",
+			"previous_sibling": null
+		}, {
+			"go_to": {
+				"return": null,
+				"selector": "body",
+				"dialog_node": "Upsell"
+			},
+			"output": {
+				"text": {
+					"values": ["Sure, let me bring that up.<speak version=\"1.0\"><break strength=\"strong\"></break></speak>It looks like you have only 1 GB of data left this month."],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": null,
+			"context": null,
+			"created": "2017-03-15T18:38:09.175Z",
+			"updated": "2017-03-21T22:33:03.066Z",
+			"metadata": null,
+			"conditions": "#data",
+			"description": null,
+			"dialog_node": "How much data left",
+			"previous_sibling": "Start"
+		}, {
+			"type": "response_condition",
+			"go_to": null,
+			"output": {
+				"text": {
+					"values": ["And how much is your average monthly phone bill?"],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "bill",
+			"context": {
+				"DEPENDENTS": 0
+			},
+			"created": "2017-03-21T23:25:44.507Z",
+			"updated": "2017-03-21T23:26:56.240Z",
+			"metadata": null,
+			"conditions": " @response:no",
+			"description": null,
+			"dialog_node": "node_12_1490138744342",
+			"previous_sibling": "node_11_1490138733226"
+		}, {
+			"type": "response_condition",
+			"go_to": null,
+			"output": {
+				"text": {
+					"values": ["And how much is your average monthly phone bill?"],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "bill",
+			"context": {
+				"DEPENDENTS": 1
+			},
+			"created": "2017-03-21T23:25:33.603Z",
+			"updated": "2017-03-21T23:26:44.776Z",
+			"metadata": null,
+			"conditions": " @response:yes",
+			"description": null,
+			"dialog_node": "node_11_1490138733226",
+			"previous_sibling": "node_26_1490200907921"
+		}, {
+			"type": "response_condition",
+			"go_to": null,
+			"output": {
+				"text": {
+					"values": ["Excellent.  I'll process that for you now and send you a confirmation email"],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1489549392637",
+			"context": {
+				"email": true
+			},
+			"created": "2017-03-15T03:43:35.379Z",
+			"updated": "2017-03-21T23:22:28.161Z",
+			"metadata": null,
+			"conditions": "@response:yes",
+			"description": null,
+			"dialog_node": "node_2_1489549415169",
+			"previous_sibling": null
+		}, {
+			"type": "response_condition",
+			"go_to": null,
+			"output": {
+				"text": {
+					"values": ["Excellent.  I'll send the details right over to you."],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_7_1489600729536",
+			"context": {
+				"email": true
+			},
+			"created": "2017-03-15T17:59:12.862Z",
+			"updated": "2017-03-16T00:33:29.591Z",
+			"metadata": null,
+			"conditions": " @response:yes",
+			"description": null,
+			"dialog_node": "node_8_1489600752708",
+			"previous_sibling": null
+		}, {
+			"type": "response_condition",
+			"go_to": null,
+			"output": {
+				"text": {
+					"values": ["Got it.  Based on those traits I think you might want to watch"],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "Rec",
+			"context": {
+				"predictmovie": true,
+				"moviecomplete": true,
+				"MONTHLYCHARGES": "@sys-number"
+			},
+			"created": "2017-03-22T16:21:12.596Z",
+			"updated": "2017-03-22T16:21:13.049Z",
+			"metadata": null,
+			"conditions": null,
+			"description": null,
+			"dialog_node": "node_20_1490199672452",
+			"previous_sibling": null
+		}, {
+			"type": "response_condition",
+			"go_to": null,
+			"output": {
+				"text": {
+					"values": ["Ok, and do you have any dependants?"],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "Gender",
+			"context": {
+				"GENDER": "Female"
+			},
+			"created": "2017-03-21T23:24:12.965Z",
+			"updated": "2017-03-21T23:27:05.106Z",
+			"metadata": null,
+			"conditions": " @gender:female",
+			"description": null,
+			"dialog_node": "node_10_1490138652802",
+			"previous_sibling": "node_9_1490138623641"
+		}, {
+			"type": "response_condition",
+			"go_to": null,
+			"output": {
+				"text": {
+					"values": ["Ok, and do you have any dependants?"],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "Gender",
+			"context": {
+				"GENDER": "Male"
+			},
+			"created": "2017-03-21T23:23:43.605Z",
+			"updated": "2017-03-21T23:29:57.976Z",
+			"metadata": null,
+			"conditions": " @gender:male",
+			"description": null,
+			"dialog_node": "node_9_1490138623641",
+			"previous_sibling": null
+		}, {
+			"type": "response_condition",
+			"go_to": null,
+			"output": {
+				"text": {
+					"values": ["Ok, and what is your gender?"],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "Age",
+			"context": {
+				"SENIORCITIZEN": 0
+			},
+			"created": "2017-03-21T23:21:25.848Z",
+			"updated": "2017-03-21T23:23:15.295Z",
+			"metadata": null,
+			"conditions": " @response:no",
+			"description": null,
+			"dialog_node": "node_8_1490138485758",
+			"previous_sibling": "node_3_1490135926706"
+		}, {
+			"type": "response_condition",
+			"go_to": null,
+			"output": {
+				"text": {
+					"values": ["Ok, and what is your gender?"],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "Age",
+			"context": {
+				"SENIORCITIZEN": 1
+			},
+			"created": "2017-03-21T22:38:46.708Z",
+			"updated": "2017-03-21T23:23:21.549Z",
+			"metadata": null,
+			"conditions": " @response:yes",
+			"description": null,
+			"dialog_node": "node_3_1490135926706",
+			"previous_sibling": "node_23_1490200223320"
+		}, {
+			"type": "response_condition",
+			"go_to": null,
+			"output": {
+				"text": {
+					"values": ["Ok, no problem"],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_7_1489600729536",
+			"context": null,
+			"created": "2017-03-15T17:59:36.736Z",
+			"updated": "2017-03-15T18:01:00.433Z",
+			"metadata": null,
+			"conditions": " @response:no",
+			"description": null,
+			"dialog_node": "node_9_1489600776548",
+			"previous_sibling": "node_8_1489600752708"
+		}, {
+			"type": "response_condition",
+			"go_to": null,
+			"output": {
+				"text": {
+					"values": ["Ok, no problem."],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_1_1489549392637",
+			"context": null,
+			"created": "2017-03-15T03:46:17.301Z",
+			"updated": "2017-03-15T03:46:41.130Z",
+			"metadata": null,
+			"conditions": " @response:no",
+			"description": null,
+			"dialog_node": "node_3_1489549576970",
+			"previous_sibling": "node_2_1489549415169"
+		}, {
+			"type": "response_condition",
+			"go_to": null,
+			"output": {
+				"text": {
+					"values": ["Sorry, I didn't get that"],
+					"selection_policy": "sequential"
+				}
+			},
+			"parent": "node_26_1490200907921",
+			"context": null,
+			"created": "2017-03-22T16:45:44.894Z",
+			"updated": "2017-03-22T16:46:03.481Z",
+			"metadata": null,
+			"conditions": "",
+			"description": null,
+			"dialog_node": "node_27_1490201144590",
+			"previous_sibling": null
+		}
+	],
+	"workspace_id": "a5c2dfb1-6ff3-4f1d-bc75-84809c65fa94",
+	"counterexamples": []
+}
