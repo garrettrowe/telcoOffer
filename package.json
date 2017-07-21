@@ -2,26 +2,21 @@
     "name"         : "node-red-bluemix",
     "version"      : "0.5.1",
     "dependencies": {
-        "easy-ffmpeg":"0.0.14",
         "when": "~3.x",
-        "mongodb": "~1.4.x",
         "nano": "~5.11.0",
         "cfenv":"~1.0.0",
-        "feedparser":"~0.19.2",
-        "redis":"~0.10.1",
         "node-red": "*",
         "node-red-bluemix-nodes":"*",
         "node-red-node-watson":"*",
         "node-red-node-openwhisk":"*",
         "node-red-node-cf-cloudant":"*",
-        "node-red-contrib-scx-ibmiotapp":"*",
         "node-red-contrib-ibmpush":"*",
         "node-red-contrib-bluemix-hdfs":"*",
         "node-red-nodes-cf-sqldb-dashdb":"*",
         "node-red-contrib-browser-utils":"*",
         "node-red-contrib-play-audio": "*",
         "node-red-dashboard": "*",
-        "node-red-contrib-micropi":"*"
+        "node-red-contrib-media-utils-plus":"*"
         
     },
     "scripts": {
