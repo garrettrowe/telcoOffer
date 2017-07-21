@@ -19,7 +19,6 @@
         "node-red-contrib-bluemix-hdfs":"*",
         "node-red-nodes-cf-sqldb-dashdb":"*",
         "node-red-contrib-browser-utils":"*",
-        "node-red-contrib-media-utils":"*",
         "node-red-contrib-play-audio": "*",
         "node-red-dashboard": "*",
         "node-red-contrib-mic":"0.0.1"
