@@ -21,7 +21,7 @@
         "node-red-contrib-browser-utils":"*",
         "node-red-contrib-play-audio": "*",
         "node-red-dashboard": "*",
-        "node-red-contrib-mic":"0.0.1"
+        "node-red-contrib-micropi":"*"
         
     },
     "scripts": {
